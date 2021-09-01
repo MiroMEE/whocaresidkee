@@ -1,4 +1,4 @@
-class pocitan{
+/*class pocitan{
     constructor(x,y){
         this.x = x;
         this.y = y; 
@@ -26,5 +26,4 @@ pocN.nasobeni(console.log(d));
 pocN.deleni();
 pocN.plus();
 pocN.minus();
-pocN.plusominusoadelenonasobeni();
-/* JUST SPAM DONT USE IT */
+pocN.plusominusoadelenonasobeni();*/
