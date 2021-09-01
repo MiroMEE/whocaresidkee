@@ -7,6 +7,12 @@
     position: relative;
     transform: scaleY(100%);
 }
+a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+/*left*/
 .divMenuBoxLeft{
     float: left;
     background-color: rgb(255, 102, 0);
@@ -23,9 +29,11 @@
     animation-name: animSetLeft;
     animation-duration: 0.5s;
     animation-fill-mode: forwards;
+    position: relative;
 }
 .divStartLeft{
     opacity: 0;
+    position: relative;
 }
 .divMenuBoxLeft:hover .divStartLeft{
     opacity: 1;
@@ -37,10 +45,12 @@
     margin-right: 10px;
     float: left;
     border-radius: 5px;
+    top: 50px;
 }
 .divStartLeft:hover{
     border-bottom: black solid 1px;
 }
+/*mid*/
 .divMenuBox{
     float: left;
     background-color: rgb(255, 102, 0);
@@ -56,11 +66,6 @@
     animation-name: animSet;
     animation-duration: 0.5s;
     animation-fill-mode: forwards;
-}
-a{
-    text-decoration: none;
-    color: black;
-    text-align: center;
 }
 .divStart{
     position:relative;
@@ -82,4 +87,14 @@ a{
     top: 0px;
     height: 130px;
     width: 180px;
+}
+
+/*CUBE POSITION*/
+.cube{
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 112, 112, 0.315);
+    position: relative;
+    top: 100px;
+    left: 100px;
 }
