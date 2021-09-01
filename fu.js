@@ -27,3 +27,4 @@ pocN.deleni();
 pocN.plus();
 pocN.minus();
 pocN.plusominusoadelenonasobeni();
+/* JUST SPAM DONT USE IT */
